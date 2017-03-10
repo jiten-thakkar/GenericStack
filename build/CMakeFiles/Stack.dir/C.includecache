@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/include/stack.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+
+/home/vagrant/stack/src/lib/stack.c
+stack.h
+/home/vagrant/stack/src/lib/stack.h
+

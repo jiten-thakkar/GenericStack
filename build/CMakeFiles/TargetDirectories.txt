@@ -1,0 +1,2 @@
+/home/vagrant/stack/build/CMakeFiles/stack.dir
+/home/vagrant/stack/build/CMakeFiles/Stack.dir
