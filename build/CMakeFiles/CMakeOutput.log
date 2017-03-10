@@ -28,30 +28,30 @@ The CXX compiler identification is GNU, found in "/home/vagrant/stack/build/CMak
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec3841312377/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec3841312377.dir/build.make CMakeFiles/cmTryCompileExec3841312377.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2476696935/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2476696935.dir/build.make CMakeFiles/cmTryCompileExec2476696935.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec3841312377.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3841312377.dir/testCCompiler.c.o   -c /home/vagrant/stack/build/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec3841312377
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3841312377.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec3841312377.dir/testCCompiler.c.o  -o cmTryCompileExec3841312377 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec2476696935.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2476696935.dir/testCCompiler.c.o   -c /home/vagrant/stack/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2476696935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2476696935.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2476696935.dir/testCCompiler.c.o  -o cmTryCompileExec2476696935 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec174299880/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec174299880.dir/build.make CMakeFiles/cmTryCompileExec174299880.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1329029029/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1329029029.dir/build.make CMakeFiles/cmTryCompileExec1329029029.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec174299880
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec174299880.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec174299880 -rdynamic  
+Building C object CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1329029029
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1329029029.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1329029029 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -61,8 +61,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec174299880' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec174299880 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1329029029' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1329029029 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -70,15 +70,15 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec174299880/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec174299880.dir/build.make CMakeFiles/cmTryCompileExec174299880.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec1329029029/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec1329029029.dir/build.make CMakeFiles/cmTryCompileExec1329029029.dir/build]
   ignore line: [make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec174299880]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec174299880.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec174299880 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.2/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1329029029]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1329029029.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1329029029 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -88,8 +88,8 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec174299880' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec174299880 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec1329029029' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec1329029029 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec174299880] ==> ignore
+    arg [cmTryCompileExec1329029029] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec174299880.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1329029029.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -149,15 +149,15 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec4131669606/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec4131669606.dir/build.make CMakeFiles/cmTryCompileExec4131669606.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4203526726/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4203526726.dir/build.make CMakeFiles/cmTryCompileExec4203526726.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec4131669606.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec4131669606.dir/feature_tests.c.o   -c /home/vagrant/stack/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec4131669606
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4131669606.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec4131669606.dir/feature_tests.c.o  -o cmTryCompileExec4131669606 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec4203526726.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTryCompileExec4203526726.dir/feature_tests.c.o   -c /home/vagrant/stack/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec4203526726
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4203526726.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec4203526726.dir/feature_tests.c.o  -o cmTryCompileExec4203526726 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -170,15 +170,15 @@ make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2596022134/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2596022134.dir/build.make CMakeFiles/cmTryCompileExec2596022134.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1092795272/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1092795272.dir/build.make CMakeFiles/cmTryCompileExec1092795272.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec2596022134.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec2596022134.dir/feature_tests.c.o   -c /home/vagrant/stack/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec2596022134
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2596022134.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec2596022134.dir/feature_tests.c.o  -o cmTryCompileExec2596022134 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1092795272.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTryCompileExec1092795272.dir/feature_tests.c.o   -c /home/vagrant/stack/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1092795272
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1092795272.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1092795272.dir/feature_tests.c.o  -o cmTryCompileExec1092795272 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -191,15 +191,15 @@ make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec228201866/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec228201866.dir/build.make CMakeFiles/cmTryCompileExec228201866.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1763595638/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1763595638.dir/build.make CMakeFiles/cmTryCompileExec1763595638.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec228201866.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec228201866.dir/feature_tests.c.o   -c /home/vagrant/stack/build/CMakeFiles/feature_tests.c
-Linking C executable cmTryCompileExec228201866
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec228201866.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTryCompileExec228201866.dir/feature_tests.c.o  -o cmTryCompileExec228201866 -rdynamic 
+Building C object CMakeFiles/cmTryCompileExec1763595638.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTryCompileExec1763595638.dir/feature_tests.c.o   -c /home/vagrant/stack/build/CMakeFiles/feature_tests.c
+Linking C executable cmTryCompileExec1763595638
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1763595638.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1763595638.dir/feature_tests.c.o  -o cmTryCompileExec1763595638 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -210,30 +210,30 @@ make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1940475828/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1940475828.dir/build.make CMakeFiles/cmTryCompileExec1940475828.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1166865697/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1166865697.dir/build.make CMakeFiles/cmTryCompileExec1166865697.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1940475828.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1940475828.dir/testCXXCompiler.cxx.o -c /home/vagrant/stack/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec1940475828
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1940475828.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1940475828.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1940475828 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1166865697.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1166865697.dir/testCXXCompiler.cxx.o -c /home/vagrant/stack/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1166865697
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1166865697.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1166865697.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1166865697 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2847935586/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2847935586.dir/build.make CMakeFiles/cmTryCompileExec2847935586.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3224282583/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3224282583.dir/build.make CMakeFiles/cmTryCompileExec3224282583.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec2847935586
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2847935586.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2847935586 -rdynamic  
+Building CXX object CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec3224282583
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3224282583.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3224282583 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper
@@ -243,8 +243,8 @@ Thread model: posix
 gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2847935586' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2847935586 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3224282583' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3224282583 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -252,15 +252,15 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2847935586/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2847935586.dir/build.make CMakeFiles/cmTryCompileExec2847935586.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec3224282583/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec3224282583.dir/build.make CMakeFiles/cmTryCompileExec3224282583.dir/build]
   ignore line: [make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp']
   ignore line: [/usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec2847935586]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2847935586.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2847935586 -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.2/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec3224282583]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3224282583.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec3224282583 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.8/lto-wrapper]
@@ -270,8 +270,8 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 4.8.4 (Ubuntu 4.8.4-2ubuntu1~14.04.3) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.8/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2847935586' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec2847935586 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec3224282583' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.8/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTryCompileExec3224282583 /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.8 -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../.. CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.8/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/collect2] ==> ignore
     arg [--sysroot=/] ==> ignore
     arg [--build-id] ==> ignore
@@ -285,7 +285,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec2847935586] ==> ignore
+    arg [cmTryCompileExec3224282583] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/4.8/crtbegin.o] ==> ignore
@@ -297,7 +297,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.8/../../..]
-    arg [CMakeFiles/cmTryCompileExec2847935586.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec3224282583.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -329,15 +329,15 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++1y] compiler features compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec2847242996/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec2847242996.dir/build.make CMakeFiles/cmTryCompileExec2847242996.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1209837148/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1209837148.dir/build.make CMakeFiles/cmTryCompileExec1209837148.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec2847242996.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec2847242996.dir/feature_tests.cxx.o -c /home/vagrant/stack/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec2847242996
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2847242996.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec2847242996.dir/feature_tests.cxx.o  -o cmTryCompileExec2847242996 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1209837148.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++1y -o CMakeFiles/cmTryCompileExec1209837148.dir/feature_tests.cxx.o -c /home/vagrant/stack/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1209837148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1209837148.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1209837148.dir/feature_tests.cxx.o  -o cmTryCompileExec1209837148 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -403,15 +403,15 @@ make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec1596791819/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec1596791819.dir/build.make CMakeFiles/cmTryCompileExec1596791819.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2317389422/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2317389422.dir/build.make CMakeFiles/cmTryCompileExec2317389422.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1596791819.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec1596791819.dir/feature_tests.cxx.o -c /home/vagrant/stack/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec1596791819
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1596791819.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec1596791819.dir/feature_tests.cxx.o  -o cmTryCompileExec1596791819 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec2317389422.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTryCompileExec2317389422.dir/feature_tests.cxx.o -c /home/vagrant/stack/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec2317389422
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2317389422.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec2317389422.dir/feature_tests.cxx.o  -o cmTryCompileExec2317389422 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
@@ -477,15 +477,15 @@ make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/vagrant/stack/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTryCompileExec105459825/fast"
-/usr/bin/make -f CMakeFiles/cmTryCompileExec105459825.dir/build.make CMakeFiles/cmTryCompileExec105459825.dir/build
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1912471096/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1912471096.dir/build.make CMakeFiles/cmTryCompileExec1912471096.dir/build
 make[1]: Entering directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 /usr/bin/cmake -E cmake_progress_report /home/vagrant/stack/build/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec105459825.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec105459825.dir/feature_tests.cxx.o -c /home/vagrant/stack/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTryCompileExec105459825
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec105459825.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTryCompileExec105459825.dir/feature_tests.cxx.o  -o cmTryCompileExec105459825 -rdynamic 
+Building CXX object CMakeFiles/cmTryCompileExec1912471096.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTryCompileExec1912471096.dir/feature_tests.cxx.o -c /home/vagrant/stack/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTryCompileExec1912471096
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1912471096.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1912471096.dir/feature_tests.cxx.o  -o cmTryCompileExec1912471096 -rdynamic 
 make[1]: Leaving directory `/home/vagrant/stack/build/CMakeFiles/CMakeTmp'
 
 
