@@ -18,7 +18,7 @@ int stackDestroy(Stack *s) {
 
 int expandStack(Stack* s) {
   //double total capacity of the stack
-  s->data = realloc(s->data, s->totalElements * 2);
+  s->data = realloc(s->data, s->totalElements * 2 * s->memberSize);
   assert(s->data);
   s->totalElements *= 2;
   return 0;
